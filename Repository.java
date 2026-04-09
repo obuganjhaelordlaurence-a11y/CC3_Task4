@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class HardwareRepository {
+public class Repository {
 
     public static ArrayList<Hardware> getHardwareList() {
         ArrayList<Hardware> list = new ArrayList<>();

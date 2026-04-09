@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Hardware> hardwareList = HardwareRepository.getHardwareList();
+        ArrayList<Hardware> hardwareList = Repository.getHardwareList();
 
         System.out.println("=== Hardware Masterlist ===");
         for (Hardware hw : hardwareList) {
